@@ -13,7 +13,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Git clone my repo
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
       
     - name: Print AWS Version
       run: aws --version
