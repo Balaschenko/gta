@@ -22,5 +22,5 @@ jobs:
       run: terraform --version
 
     - name: Kubectl Version
-      run: kubectl version
+      run: which kubectl
       
