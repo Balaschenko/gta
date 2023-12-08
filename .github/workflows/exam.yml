@@ -14,11 +14,7 @@ jobs:
     steps:
     - name: Git clone my repo
       uses: actions/checkout@v3
-
-    - name: Install deps
-      run: npm ci
-      
-      
+    
     - name: Print AWS Version
       run: aws --version
 
