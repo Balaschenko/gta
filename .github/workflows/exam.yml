@@ -17,5 +17,8 @@ jobs:
       
     - name: Print AWS Version
       run: aws --version
+
+    - name: Print TF Version
+      run: terraform --version
       
 
